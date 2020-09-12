@@ -3,8 +3,8 @@
 import sys
 import time
 
-# every 30 mins
-DELAY = 1800
+# hour
+DELAY = 3600
 
 while True:
         out = []
