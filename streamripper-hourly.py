@@ -17,5 +17,5 @@ def job():
 
 
 ap_schedule = BlockingScheduler()
-ap_schedule.add_job(job, trigger="cron", hour="*", minute="*/1")
+ap_schedule.add_job(job, trigger="cron", hour="*/1")
 ap_schedule.start()
